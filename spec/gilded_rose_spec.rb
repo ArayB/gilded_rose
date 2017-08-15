@@ -114,6 +114,7 @@ RSpec.describe GildedRose do
 
     context 'Sulfuras' do
       let(:name) { 'Sulfuras, Hand of Ragnaros' }
+      let(:initial_quality) { 80 }
 
       it 'updates days_remaining correctly' do
         expect(item.days_remaining).to eq(initial_days_remaining)
