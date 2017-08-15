@@ -3,7 +3,9 @@
 Another Ruby version of the Gilded Rose Kata.
 The original can be found [here](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/).
 
-I used [Jim Weirich's version](https://github.com/jimweirich/gilded_rose_kata) to create the version that Sandi Metz talks about in her [All the little things](https://www.youtube.com/watch?v=8bZh5LMaSmE&t=227s&list=PLlbR-exSPwQYv9fpUSq3iuM10e2mLTKfY&index=4)talk.
+I used [Jim Weirich's version](https://github.com/jimweirich/gilded_rose_kata) to 
+create the version that Sandi Metz talks about in her 
+[All the little things](https://www.youtube.com/watch?v=8bZh5LMaSmE&t=227s&list=PLlbR-exSPwQYv9fpUSq3iuM10e2mLTKfY&index=4) talk.
 
 The aim of the Kata is to refactor the GildedRose class into something a bit less... 
 conditional?
