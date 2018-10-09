@@ -227,13 +227,11 @@ RSpec.describe GildedRose do
       let(:name) { 'Conjured Mana Cake' }
 
       it 'updates days_remaining correctly' do
-        skip
         expect(item.days_remaining).to eq(initial_days_remaining - 1)
       end
 
       context 'before sell by date' do
         it 'updates quality correctly' do
-          skip
           expect(item.quality).to eq(initial_quality - 2)
         end
 
@@ -241,7 +239,6 @@ RSpec.describe GildedRose do
           let(:initial_quality) { 0 }
 
           it 'updates quality correctly' do
-            skip
             expect(item.quality).to eq(initial_quality)
           end
         end
@@ -251,7 +248,6 @@ RSpec.describe GildedRose do
         let(:initial_days_remaining) { 0 }
 
         it 'updates quality correctly' do
-          skip
           expect(item.quality).to eq(initial_quality - 4)
         end
 
@@ -259,7 +255,6 @@ RSpec.describe GildedRose do
           let(:initial_quality) { 0 }
 
           it 'updates quality correctly' do
-            skip
             expect(item.quality).to eq(initial_quality)
           end
         end
@@ -269,7 +264,6 @@ RSpec.describe GildedRose do
         let(:initial_days_remaining) { -10 }
 
         it 'updates quality correctly' do
-          skip
           expect(item.quality).to eq(initial_quality - 4)
         end
 
@@ -277,7 +271,6 @@ RSpec.describe GildedRose do
           let(:initial_quality) { 0 }
 
           it 'updates quality correctly' do
-            skip
             expect(item.quality).to eq(initial_quality)
           end
         end
